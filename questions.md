@@ -3,3 +3,26 @@
 
 ## 2. BlockCanary 是如何检测主线程卡顿的
 
+
+## 3. Java 内存模型
+### 1. 什么是内存模型
+### 2. 什么是 Java 内存模型
+
+## 4. HashMap 原理 1.7&1.8
+HashMap 是一种以键值对
+
+
+## 5. ConcurrentHashMap 原理 1.7&1.8
+
+## 6. ArrayMap SparseArray
+
+## 7. Activity 跳转生命周期
+
+当由Activity A跳转到Activity B时的执行顺序
+
+A 的 onPause() > B 的 onCreate() > B 的 onStart() > B 的 onResume() > A 的 onStop()
+
+
+当按返回按钮由Activity B返回到Activity A时的执行顺序
+
+B 的 onPause() > A 的 onRestart() > A 的 onStart() > A 的 onResume() > B 的 onStop() > B 的 onDestroy()
