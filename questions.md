@@ -26,3 +26,97 @@ A 的 onPause() > B 的 onCreate() > B 的 onStart() > B 的 onResume() > A 的 
 当按返回按钮由Activity B返回到Activity A时的执行顺序
 
 B 的 onPause() > A 的 onRestart() > A 的 onStart() > A 的 onResume() > B 的 onStop() > B 的 onDestroy()
+
+
+
+
+
+
+
+Retrofit 动态代理细节，为什么要用 Retrofit
+
+Java 内存模型，volatile 关键字
+
+计算机内存为什么要分为堆和栈
+
+java 线程安全，生产者消费者模型
+
+HTTP/HTTPS 
+
+TCP/UDP 如何设计一个可靠地UDP协议
+
+Rxjava2 中的 Flowable 和 Observable 区别，什么是背压
+
+Kotlin 与 java 泛型
+
+什么是死锁，如何解决
+
+红黑树原理，时间复杂度
+
+HashMap HashTable ConcurrentHasMap 1.7/1.8 原理
+
+RecyclerView 与 ListView 的区别
+
+主线程 Looper 一直在循环阻塞但页面为什么不会卡顿
+
+计算 ViewGroup 中的所有子 View 数量
+
+View 的 onMeasure onLayout onDraw 流程，自定义View ViewGroup
+
+事件分发流程，如何解决滑动冲突
+
+什么是 CAS，原理 缺点 。什么是 ABA 问题，如何解决
+
+Activity 启动模式以及应用
+
+二叉树 前、中、后 序遍历，之字形层序遍历
+
+校验二叉搜索树
+
+类加载机制，双亲委派模型
+
+APK 打包流程，签名算法
+
+性能优化
+
+ANR 原理，解决
+
+爬楼梯问题，动态规划
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
